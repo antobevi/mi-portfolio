@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@500&family=Source+Code+Pro&family=Ubuntu:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    display: none; /* Oculta la barra de scroll sin deshabilitarla */
+}
+/*
+@font-face {
+    font-family: 'Anton';
+    src: url(../Fonts/Anton);
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../Fonts/Ubuntu);
+}
+*/
+body {
+    font-family: 'Ubuntu', medium;
+    font-weight: 500;
+}
+
+.content-nav {
+    background-color: #E0AAFF;
+    margin: 0px;
+    width: 1366px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.icon {
+    background-image: url(../Images/programmer.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.links {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover {
+    color: #9D4EDD;
+}
