@@ -82,3 +82,24 @@ body {
     font-size: 60px;
     color: #A06CD5;
 }
+
+.content-about-me {
+    width: 100%;
+    height: 100%;
+    top: 633px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #A06CD5;
+}
+
+.about-me {
+    font-size: 30px;
+    color: white;
+    margin: 10px 50px 50px 0px;
+    padding: 40px; /* Distancia entre el parrafo y el borde */
+    overflow: auto; /* Por si el texto sobresale del recuadro, va a haber un scroll */
+}
